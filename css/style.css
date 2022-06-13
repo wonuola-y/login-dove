@@ -182,7 +182,7 @@ display: none;
      .bg, .order-1, .order-md-2{
       display: block;
       background: none;
-      background-image: url(/login-form-02/images/el-o\ scx.png);
+      background-image: url(./images/el-o\ scx.png);
       }
       .first-image{
         border: 2px solid gray;
