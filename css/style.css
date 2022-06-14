@@ -197,7 +197,7 @@ display: none;
      .bg, .order-1, .order-md-2{
       display: block;
      border: 2px solid red;
-     background: url(/login-form-02/images/elo.svg);
+     background: url(./images/elo.svg);
       }
       .first-image{
         border: 2px solid gray;
