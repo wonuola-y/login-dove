@@ -25,7 +25,7 @@ h2 {
 
 .half, .half .container > .row {
   height: 50vh;
-  min-height: 700px; }
+  min-height: 500px; }
 
 .open, .close{
   width: 20px;
@@ -36,6 +36,9 @@ h2 {
   display: flex;
   justify-content: center;
 
+}
+.mb-4{
+  display: none;
 }
 .password{
   display: flex;
@@ -58,7 +61,7 @@ a{
    
   .half .bg {
     /* margin-top: 60px; */
-    height: 60vh; }
+    height: 50vh; }
    }
    @media (max-width: 999.98px) {
      .image{
@@ -91,15 +94,13 @@ a{
     }
 
   .half .contents .form-control, .half .bg  {
-    border: none;
-    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    /* border: none; */
+   
     border-radius: 4px;
  }
     .half .contents .form-control:active, .half .contents, .half .bg , .half .bg .form-control:focus {
       outline: none;
-      -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); }
+    }
 
       
 .half .bg {
@@ -199,19 +200,39 @@ a{
  @media  screen and (min-width: 999px) {
      .bg, .order-1, .order-md-2{
       display: block;
-     border: 2px solid red;
      background: url(/login-form-02/images/elo.svg);
+      }
+.contents{
+  margin-top: 30px;
+}
+      .logo-desktop{
+        width: 100px;
+        margin: 2em;
       }
       .first-image{
         
         margin-top: 0.5em;
-        width: 100%;
+        width: 85%;
         display: flex;
         justify-content: center;
         align-content: center;
+      }
+      .second-image {
+        display: none;
       }
       .image{
         display: none;
       }
      
+      
+  }
+  @media screen and (min-width: 1599px){
+.first-image {
+  display: none;
+}
+.second-image{
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
   }
